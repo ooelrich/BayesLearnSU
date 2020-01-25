@@ -1,0 +1,11 @@
+Package: bayesLearnCourseSU
+Type: Package
+Title: Data for the course Bayesian Learning
+Version: 0.1.0
+Author: Oscar Oelrich
+Maintainer: Oscar Oelrich <oscar.oelrich@stat.se.se>
+Description: Various data sets for the course Bayesian Learning at SU and LIU.
+License: Do what thou wilt shall be the whole of the law.
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
