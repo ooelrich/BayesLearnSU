@@ -1,7 +1,7 @@
 Package: BayesLearnSU
 Type: Package
 Title: Data for the course Bayesian Learning
-Version: 0.1.0
+Version: 1.0.0
 Author: Oscar Oelrich
 Maintainer: Oscar Oelrich <oscar.oelrich@stat.se.se>
 Description: Various data sets for the course Bayesian Learning at SU and LIU.
