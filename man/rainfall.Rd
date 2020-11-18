@@ -4,11 +4,13 @@
 \name{rainfall}
 \alias{rainfall}
 \title{Rainfall at Snoqualmie Falls, Washington}
-\format{A data frame with 6920 rows and 1 variables:
+\format{
+A data frame with 6920 rows and 1 variables:
 \describe{
   \item{precipitation}{Daily precipitation in 0.01 inches, excluding zeroes.}
   ...
-}}
+}
+}
 \usage{
 rainfall
 }

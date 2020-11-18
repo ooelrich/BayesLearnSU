@@ -19,4 +19,4 @@
 #'   ...
 #' }
 #'
-"ebayNumberOfBidders"
+"ebayBiddersData"

@@ -4,7 +4,8 @@
 \name{womenWork}
 \alias{womenWork}
 \title{Data on working status}
-\format{A data frame with 200 rows and 9 variables:
+\format{
+A data frame with 200 rows and 9 variables:
 \describe{
   \item{work}{Whether or not the woman works.}
   \item{constant}{Constant/intercept.}
@@ -18,7 +19,8 @@
   \item{nBigChild}{Number of children older than six in the household.
   Not counting the husband.}
   ...
-}}
+}
+}
 \usage{
 womenWork
 }

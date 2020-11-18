@@ -4,13 +4,15 @@
 \name{tempLinkoping}
 \alias{tempLinkoping}
 \title{Temperature at Malmslätt, Linköping}
-\format{A data frame with 6920 rows and 1 variables:
+\format{
+A data frame with 6920 rows and 1 variables:
 \describe{
   \item{time}{The number of days since the beginning of the year divided
   by 366}
   \item{temp}{Temperature.}
   ...
-}}
+}
+}
 \usage{
 tempLinkoping
 }
