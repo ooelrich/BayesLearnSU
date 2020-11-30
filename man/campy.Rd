@@ -12,7 +12,7 @@ A data frame with 140 rows and 1 variables:
 }
 }
 \usage{
-campy
+data(campy)
 }
 \description{
 A dataset of the number of campylobacter infections in the north of the

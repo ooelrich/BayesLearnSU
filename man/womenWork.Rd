@@ -22,7 +22,7 @@ A data frame with 200 rows and 9 variables:
 }
 }
 \usage{
-womenWork
+data(womenWork)
 }
 \description{
 A dataset on the working status (works or does not work) for 200 women.

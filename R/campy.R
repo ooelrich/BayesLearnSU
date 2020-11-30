@@ -9,5 +9,6 @@
 #'   \item{infections}{Number of campylobacter infections during a four week period.}
 #'   ...
 #' }
+#' @usage data(campy)
 #'
 "campy"

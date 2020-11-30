@@ -10,5 +10,6 @@
 #'   \item{temp}{Temperature.}
 #'   ...
 #' }
+#' @usage data(tempLinkoping)
 #'
 "tempLinkoping"

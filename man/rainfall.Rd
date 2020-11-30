@@ -12,7 +12,7 @@ A data frame with 6920 rows and 1 variables:
 }
 }
 \usage{
-rainfall
+data(rainfall)
 }
 \description{
 A dataset of daily records of precipitation in 0.01 inches, with zeroes

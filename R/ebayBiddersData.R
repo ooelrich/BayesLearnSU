@@ -1,6 +1,6 @@
 #' Coin auctions from ebay
 #'
-#' A dataset of 1000 auctions of coins on ebay.
+#' A data set of 1000 auctions of coins on ebay.
 #'
 #' @format A data frame with 1000 rows and 10 variables:
 #' \describe{
@@ -18,5 +18,6 @@
 #'   selling price and the book value. Standardized.}
 #'   ...
 #' }
+#' @usage data(ebayBiddersData)
 #'
 "ebayBiddersData"

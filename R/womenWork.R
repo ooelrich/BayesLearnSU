@@ -17,5 +17,6 @@
 #'   Not counting the husband.}
 #'   ...
 #' }
+#' @usage data(womenWork)
 #'
 "womenWork"

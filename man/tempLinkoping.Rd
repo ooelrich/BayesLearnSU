@@ -14,7 +14,7 @@ A data frame with 6920 rows and 1 variables:
 }
 }
 \usage{
-tempLinkoping
+data(tempLinkoping)
 }
 \description{
 A dataset of daily temperatures (in Celcius) at Malmslätt, Linköping, over

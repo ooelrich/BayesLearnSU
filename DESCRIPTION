@@ -5,9 +5,10 @@ Version: 1.0.0
 Author: Oscar Oelrich
 Maintainer: Oscar Oelrich <oscar.oelrich@stat.se.se>
 Description: Various data sets for the course Bayesian Learning at SU and LIU.
+Depends: R (>= 4.0.0)
 URL: https://github.com/ooelrich/BayesLearnSU
 BugReports: https://github.com/ooelrich/BayesLearnSU/issues
 License: GPL
 Encoding: UTF-8
-LazyData: true
+LazyData: false
 RoxygenNote: 7.1.1
