@@ -18,6 +18,5 @@
 #'   selling price and the book value. Standardized.}
 #'   ...
 #' }
-#' @usage data(ebayBiddersData)
 #'
 "ebayBiddersData"

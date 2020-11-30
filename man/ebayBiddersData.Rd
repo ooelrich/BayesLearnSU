@@ -23,7 +23,7 @@ A data frame with 1000 rows and 10 variables:
 }
 }
 \usage{
-data(ebayBiddersData)
+ebayBiddersData
 }
 \description{
 A data set of 1000 auctions of coins on ebay.

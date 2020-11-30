@@ -9,6 +9,5 @@
 #'   \item{precipitation}{Daily precipitation in 0.01 inches, excluding zeroes.}
 #'   ...
 #' }
-#' @usage data(rainfall)
 #'
 "rainfall"
