@@ -5,15 +5,18 @@
 \alias{BayesLearnSU}
 \title{BayesLearnSU: a package for the Bayesian learning course at SU}
 \description{
-This package contains the data sets used in the course Bayesian learning at
+This package contains the data sets used in the course Bayesian learning at 
 Stockholm university. The package uses lazy loading, which means that the 
-data sets are not loaded themselves into the environment, but they will be
-on first access.
+data sets are not loaded themselves into the environment, but they can still 
+be accessed.
 }
-\details{
-This means that while (for example) tempLinkoping does not show up in the
-environment, you can still use it. (As an example, after loading the package
-try "head(tempLinkoping)" or "mean(tempLinkoping$temp)".)
+\section{Usage}{
+
+
+Even though the data sets do not show up in the environment, they can be 
+accessed (used) as normal, so for example mean(tempLinkoping$temp) or 
+summary(womenWork) will give expected results.
 
 For a list of all available data sets, use help(, "BayesLearnSU").
 }
+
