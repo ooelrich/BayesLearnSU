@@ -1,4 +1,4 @@
 exportPattern("^[[:alpha:]]+")
-import("ggplot2")
+import(ggplot2)
 importFrom("reshape2", "melt")
 importFrom("stats", "dbeta", "dnorm")

@@ -9,12 +9,12 @@
 #' @param alpha Prior hyperparameter alpha
 #' @param beta Prior hyperparameter beta
 #' 
-#' @import ggplot2
+#' @import ggplot2, reshape2
 
 beta_normal_approximation <- function(n, s, alpha = 1, beta = 1) {
 
     theta <- seq(0, 1, by = 0.001)
-        
+
     exact <- lapply(
         as.list(theta),
         dbeta,
@@ -34,5 +34,5 @@ beta_normal_approximation <- function(n, s, alpha = 1, beta = 1) {
 
     df <- data.frame(theta, exact = unlist(exact), approx = unlist(approx))
     df <- reshape2::melt(df, measure.vars = c("exact", "approx"))
-    ggplot2:ggplot(df, aes(x = theta, y = value, col = variable)) + geom_line()
+    ggplot2::ggplot(df, ggplot2::aes(x = .data$theta, y = .data$value, col = .data$variable)) + ggplot2::geom_line()
 }
