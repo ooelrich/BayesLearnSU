@@ -10,5 +10,6 @@ URL: https://github.com/ooelrich/BayesLearnSU
 BugReports: https://github.com/ooelrich/BayesLearnSU/issues
 License: GPL
 Encoding: UTF-8
+Imports: ggplot2, reshape2
 LazyData: true
 RoxygenNote: 7.1.1
