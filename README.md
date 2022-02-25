@@ -10,8 +10,8 @@ This is a package containing data sets for the course Bayesian learning at Stock
 
 ## Installation
 
-Install using the `devtools` package
+Install using the `remotes` package
 
 ``` r
-devtools::install_github("ooelrich/BayesLearnSU")
+remotes::install_github("ooelrich/BayesLearnSU")
 ```
